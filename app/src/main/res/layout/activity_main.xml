@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="177dp"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/phn" />
+
+    <EditText
+
+        android:id="@+id/signupedt"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/signupps"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="#95db9a"
+        android:textSize="20sp"
+        android:id="@+id/signupbtn"
+        android:layout_width="133dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Signup" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtlogin"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="Already Have Account? Login"
+        android:textSize="20sp" />
+
+</LinearLayout>

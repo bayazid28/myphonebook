@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyPhonebook</string>
+    <string name="txt">Don\'t Have Account? Signup</string>
+    <string name="lgtt">LogIn</string>
+    <string name="ps">Password</string>
+    <string name="em">Email</string>
+
+</resources>
